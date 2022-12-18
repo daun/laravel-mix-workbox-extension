@@ -1,5 +1,5 @@
 {
-  "name": "laravel-mix-workbox",
+  "name": "laravel-mix-workbox-extension",
   "version": "0.1.4",
   "description": "Laravel Mix extension for Workbox",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/speniti/laravel-mix-workbox.git"
+    "url": "git+https://github.com/daun/laravel-mix-workbox-extension.git"
   },
   "keywords": [
     "laravel",
@@ -16,12 +16,12 @@
     "mix",
     "workbox"
   ],
-  "author": "Simone Peniti",
+  "author": "Philipp Daun",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/speniti/laravel-mix-workbox/issues"
+    "url": "https://github.com/daun/laravel-mix-workbox-extension/issues"
   },
-  "homepage": "https://github.com/speniti/laravel-mix-workbox#readme",
+  "homepage": "https://github.com/daun/laravel-mix-workbox-extension#readme",
   "peerDependencies": {
     "laravel-mix": "^4.0.15 || ^5.0.0 || ^6.0.0"
   }
