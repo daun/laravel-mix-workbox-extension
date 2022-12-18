@@ -1,13 +1,13 @@
 # Laravel Mix Workbox
 
-This extension provides instant Workbox support to your Mix (v4.0 and up) builds.
+> ⚠ This is a fork of the original `laravel-mix-workbox` with a fix for [broken output paths](https://github.com/speniti/laravel-mix-workbox/issues/11) introduced in version 0.1.3.
 
 ## Usage
 
 First, install the extension.
 
 ```
-npm install laravel-mix-workbox --save-dev
+npm install laravel-mix-workbox-extension --save-dev
 ```
 
 Then, require it within your `webpack.mix.js` file, like so:
@@ -17,7 +17,7 @@ Then, require it within your `webpack.mix.js` file, like so:
 
 let mix = require('laravel-mix');
 
-require('laravel-mix-workbox');
+require('laravel-mix-workbox-extension');
 
 mix
     .js('resources/js/app.js', 'public/js')
@@ -64,7 +64,7 @@ You can pass in additional configuration like so:
 
 let mix = require('laravel-mix');
 
-require('laravel-mix-workbox');
+require('laravel-mix-workbox-extension');
 
 mix
     .js('resources/js/app.js', 'public/js')
@@ -116,7 +116,7 @@ precacheAndRoute(self.__WB_MANIFEST || []);
 
 let mix = require('laravel-mix');
 
-require('laravel-mix-workbox');
+require('laravel-mix-workbox-extension');
 
 mix
     .js('resources/js/app.js', 'public/js')

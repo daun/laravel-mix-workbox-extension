@@ -1,7 +1,7 @@
 let mix = require('laravel-mix');
 
 class Workbox {
-    
+
     /**
      * The optional name to be used when called by Mix.
      * Defaults to the class name, lowercased.
@@ -67,7 +67,8 @@ class Workbox {
      * @return {void}
      */
     webpackConfig(webpackConfig) {
-        webpackConfig.output.publicPath = '';
+        // This will break async chunk output paths by overriding any user options
+        // webpackConfig.output.publicPath = '';
     }
 }
 
